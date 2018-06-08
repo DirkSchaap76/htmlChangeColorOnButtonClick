@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+
+            body {
+                background-color: gold
+            }
+            div{
+                background-color: aqua;
+            }
+        </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="main.js"></script> -->
+
+    <script>
+            function ChangeColor() {
+                //document.getElementById("testParagraph").innerHTML;
+                //alert(mytextbox.value);
+                // do somethind with mytextbox.value -> change backgroundcolor of div
+                //document.getElementById("leiden").style.backgroundColor=mytextbox.value;
+                
+                var jojo = document.getElementById("mytextbox"); 
+                var jojojo = document.getElementById("leiden"); 
+                jojojo.style.backgroundColor = jojo.value;
+                
+            }
+        </script>
+
+</head>
+<body>
+
+    <input type="button" value="click" onclick=ChangeColor()>
+    <input type="text"  id=mytextbox>
+    <div id=leiden>Let's have a look</div>
+
+    
+    
+</body>
+
+</html>
